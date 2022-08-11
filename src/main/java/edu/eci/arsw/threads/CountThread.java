@@ -11,7 +11,7 @@ import javax.sound.sampled.SourceDataLine;
  *
  * @author hcadavid
  */
-public class CountThread implements Runnable {
+public class CountThread extends Thread {
     private int A;
     private int B;
 

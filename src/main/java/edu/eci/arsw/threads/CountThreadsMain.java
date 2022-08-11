@@ -13,9 +13,9 @@ import edu.eci.arsw.threads.CountThread;
  */
 public class CountThreadsMain {
     public static void main(String a[]) {
-        Thread t1 = new Thread(new CountThread(0, 99));
-        Thread t2 = new Thread(new CountThread(99, 199));
-        Thread t3 = new Thread(new CountThread(200, 299));
+        CountThread t1 = new CountThread(0, 99);
+        CountThread t2 = new CountThread(99, 199);
+        CountThread t3 = new CountThread(200, 299);
         t1.run();
         t2.run();
         t3.run();

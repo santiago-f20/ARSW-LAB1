@@ -17,22 +17,41 @@
 **Parte I - Introducción a Hilos en Java**
 
 1. De acuerdo con lo revisado en las lecturas, complete las clases CountThread, para que las mismas definan el ciclo de vida de un hilo que imprima por pantalla los números entre A y B.
+
+Implementando Runnable
+
 ![](img/1.png)
+
+Extendiendo Thread
+
+![](img/6.png)
 
 2. Complete el método __main__ de la clase CountMainThreads para que:
 	1. Cree 3 hilos de tipo CountThread, asignándole al primero el intervalo [0..99], al segundo [99..199], y al tercero [200..299].
 	2. Inicie los tres hilos con 'start()'.
 
+	Implementando Runnable
+
 	![](img/2.png)
 
+	Extendiendo Thread
+
+	![](img/7.png)
+
 	3. Ejecute y revise la salida por pantalla.
-	
+
 	![](img/3.png)
 	
 	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué.
 	Cambia el orden de ejecucion de los hilos.
+
+	Implementando Runnable
 	
 	![](img/4.png)
+
+	Extendiendo Thread
+
+	![](img/8.png)
 	
 	![](img/5.png)
 
