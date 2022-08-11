@@ -22,12 +22,16 @@
 2. Complete el método __main__ de la clase CountMainThreads para que:
 	1. Cree 3 hilos de tipo CountThread, asignándole al primero el intervalo [0..99], al segundo [99..199], y al tercero [200..299].
 	2. Inicie los tres hilos con 'start()'.
+
 	![](img/2.png)
 	3. Ejecute y revise la salida por pantalla. 
 	![](img/3.png)
+	
 	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué.
 	Cambia el orden de ejecucion de los hilos.
+	
 	![](img/4.png)
+	
 	![](img/5.png)
 
 **Parte II - Ejercicio Black List Search**
