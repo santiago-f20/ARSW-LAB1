@@ -24,6 +24,7 @@
 	2. Inicie los tres hilos con 'start()'.
 
 	![](img/2.png)
+	
 	3. Ejecute y revise la salida por pantalla. 
 	![](img/3.png)
 	
