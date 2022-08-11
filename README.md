@@ -24,8 +24,9 @@
 	2. Inicie los tres hilos con 'start()'.
 
 	![](img/2.png)
+
+	3. Ejecute y revise la salida por pantalla.
 	
-	3. Ejecute y revise la salida por pantalla. 
 	![](img/3.png)
 	
 	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué.
